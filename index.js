@@ -4,8 +4,8 @@ var cors = require('cors');
 
 app.use(
     cors({
-        credentials: true,
-        origin: '*'
+        //credentials: true,
+        //origin: '*'
     })
 );
 app.options('*', cors());

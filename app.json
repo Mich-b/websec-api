@@ -1,0 +1,8 @@
+{
+    "name": "Sample API to use",
+    "description": "a very simple api, returning some text",
+    "repository": "https://github.com/Mich-b/api-ap-heroku",
+    "logo": "",
+    "keywords": ["node", "express", "api"]
+  }
+  

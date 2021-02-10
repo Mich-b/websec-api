@@ -5,7 +5,7 @@ var cors = require('cors');
 app.use(
     cors({
         credentials: true,
-        origin: '*'
+        origin: 'https://www.michaelboeynaems.com'
     })
 );
 app.options('*', cors());

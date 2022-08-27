@@ -1,3 +1,8 @@
-Note: it can take up to 10 minutes for your API to be deployed using Render. 
+We deploy using Fly. 
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
+- Create free account on fly.io
+- Install fly:
+`iwr https://fly.io/install.ps1 -useb | iex`
+- Login to fly
+`flyctl auth login`
+- run `flyctl launch` in the root of this repository

@@ -1,6 +1,0 @@
-services:
-  - type: web
-    name: websec-api
-    env: node
-    buildCommand: "npm install" # ensure it's a string
-    startCommand: node index.js

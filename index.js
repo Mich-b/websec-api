@@ -5,9 +5,12 @@ var cors = require('cors');
 app.use(
     cors({
         credentials: true,
-        origin: 'https://cocky-snyder-5a02cf.netlify.app'
-    })
+        origin: 'http://127.0.0.1:5500',
+        methods: 'GET',
+        credentials: 'false',
+        })
 );
+
 app.options('*', cors());
 
 app.get('/', (req, res) => res.send('This api works.'));

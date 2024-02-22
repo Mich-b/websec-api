@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 var cors = require('cors');
 
+/*
 app.use(
     cors({
         credentials: true,
@@ -11,6 +12,7 @@ app.use(
         credentials: 'false',
         })
 );
+*/
 
 app.options('*', cors());
 app.get('/', (req, res) => res.send('This api works.'));
